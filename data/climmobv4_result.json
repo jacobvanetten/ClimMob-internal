@@ -1,0 +1,1366 @@
+{
+    "specialfields": [
+        {
+            "type": "Characteristic", 
+            "name": "ASS6a688e109df5_char_beantaste_pos", 
+            "desc": "Which varierty tested better عَرَب?"
+        }, 
+        {
+            "type": "Characteristic", 
+            "name": "ASS6a688e109df5_char_beantaste_neg", 
+            "desc": "Which varierty tested worst عَرَب?"
+        }, 
+        {
+            "type": "Performance", 
+            "name": "ASS6a688e109df5_perf_comptolocal_1", 
+            "desc": "In terms of taste, how does A compares with the variety you usually use?"
+        }, 
+        {
+            "type": "Performance", 
+            "name": "ASS6a688e109df5_perf_comptolocal_2", 
+            "desc": "In terms of taste, how does B compares with the variety you usually use?"
+        }, 
+        {
+            "type": "Performance", 
+            "name": "ASS6a688e109df5_perf_comptolocal_3", 
+            "desc": "In terms of taste, how does C compares with the variety you usually use?"
+        }, 
+        {
+            "type": "Performance", 
+            "name": "ASS74a747eba83e_perf_compareyield_1", 
+            "desc": "In terms of yield, how does A compares with the variety you usually use عَرَب?"
+        }, 
+        {
+            "type": "Performance", 
+            "name": "ASS74a747eba83e_perf_compareyield_2", 
+            "desc": "In terms of yield, how does B compares with the variety you usually use عَرَب?"
+        }, 
+        {
+            "type": "Performance", 
+            "name": "ASS74a747eba83e_perf_compareyield_3", 
+            "desc": "In terms of yield, how does C compares with the variety you usually use عَرَب?"
+        }, 
+        {
+            "type": "Characteristic", 
+            "name": "ASS74a747eba83e_char_overallperf_pos", 
+            "desc": "Overall, which option performed better?"
+        }, 
+        {
+            "type": "Characteristic", 
+            "name": "ASS74a747eba83e_char_overallperf_neg", 
+            "desc": "Overall, which option performed worst?"
+        }, 
+        {
+            "type": "Performance", 
+            "name": "ASS74a747eba83e_perf_overallchar_1", 
+            "desc": "Overall, whichone is best A or what you usually use?"
+        }, 
+        {
+            "type": "Performance", 
+            "name": "ASS74a747eba83e_perf_overallchar_2", 
+            "desc": "Overall, whichone is best B or what you usually use?"
+        }, 
+        {
+            "type": "Performance", 
+            "name": "ASS74a747eba83e_perf_overallchar_3", 
+            "desc": "Overall, whichone is best C or what you usually use?"
+        }
+    ], 
+    "project": {
+        "project_regstatus": 2, 
+        "project_tags": "cattle,cassava", 
+        "project_name": "This is the first project", 
+        "project_active": 1, 
+        "project_piemail": "cquiros@qlands.com", 
+        "project_numcom": 3, 
+        "project_createpkgs": 0, 
+        "project_lat": "9.904714", 
+        "project_dashboard": 1, 
+        "project_abstract": "First project created by Carlos Quiros", 
+        "project_assstatus": 1, 
+        "project_creationdate": "2017-10-03 19:38:40", 
+        "project_public": 1, 
+        "project_numobs": 200, 
+        "project_cod": "prj001", 
+        "project_pi": "Carlos Quiros", 
+        "user_name": "qlands", 
+        "project_createcomb": 0, 
+        "project_lon": "-83.685279"
+    }, 
+    "registry": {
+        "fields": [
+            {
+                "name": "surveyid", 
+                "multiSelectTable": null, 
+                "odktype": "", 
+                "rfield": null, 
+                "key": null, 
+                "rtable": null, 
+                "isMultiSelect": null, 
+                "rlookup": null, 
+                "desc": "Survey ID (UUID)"
+            }, 
+            {
+                "name": "originid", 
+                "multiSelectTable": null, 
+                "odktype": "", 
+                "rfield": null, 
+                "key": null, 
+                "rtable": null, 
+                "isMultiSelect": null, 
+                "rlookup": null, 
+                "desc": "Origin ID: formhub or aggregate"
+            }, 
+            {
+                "name": "clm_deviceimei", 
+                "multiSelectTable": null, 
+                "odktype": "deviceid", 
+                "rfield": null, 
+                "key": null, 
+                "rtable": null, 
+                "isMultiSelect": null, 
+                "rlookup": null, 
+                "desc": "Device IMEI"
+            }, 
+            {
+                "name": "clm_start", 
+                "multiSelectTable": null, 
+                "odktype": "start", 
+                "rfield": null, 
+                "key": null, 
+                "rtable": null, 
+                "isMultiSelect": null, 
+                "rlookup": null, 
+                "desc": "Start of survey"
+            }, 
+            {
+                "name": "clm_end", 
+                "multiSelectTable": null, 
+                "odktype": "end", 
+                "rfield": null, 
+                "key": null, 
+                "rtable": null, 
+                "isMultiSelect": null, 
+                "rlookup": null, 
+                "desc": "End of survey"
+            }, 
+            {
+                "name": "qst162", 
+                "multiSelectTable": null, 
+                "odktype": "barcode", 
+                "rfield": null, 
+                "key": "true", 
+                "rtable": null, 
+                "isMultiSelect": null, 
+                "rlookup": null, 
+                "desc": "Codigo de paquete"
+            }, 
+            {
+                "name": "farmername", 
+                "multiSelectTable": null, 
+                "odktype": "text", 
+                "rfield": null, 
+                "key": null, 
+                "rtable": null, 
+                "isMultiSelect": null, 
+                "rlookup": null, 
+                "desc": "Farmer name"
+            }, 
+            {
+                "name": "chino", 
+                "multiSelectTable": null, 
+                "odktype": "select_one chino_opts", 
+                "rfield": "chino_cod", 
+                "key": null, 
+                "rtable": "REG_lkpchino", 
+                "isMultiSelect": null, 
+                "rlookup": "true", 
+                "desc": "汉语/漢語 or 中文"
+            }, 
+            {
+                "name": "hhgender", 
+                "multiSelectTable": null, 
+                "odktype": "select_one hhgender_opts", 
+                "rfield": "hhgender_cod", 
+                "key": null, 
+                "rtable": "REG_lkphhgender", 
+                "isMultiSelect": null, 
+                "rlookup": "true", 
+                "desc": "Gender of household head"
+            }, 
+            {
+                "name": "rowuuid", 
+                "multiSelectTable": null, 
+                "odktype": "", 
+                "rfield": null, 
+                "key": null, 
+                "rtable": null, 
+                "isMultiSelect": null, 
+                "rlookup": null, 
+                "desc": "Unique Row Identifier (UUID)"
+            }
+        ], 
+        "lkptables": [
+            {
+                "fields": [
+                    {
+                        "name": "hhgender_cod", 
+                        "key": "true", 
+                        "desc": "Code"
+                    }, 
+                    {
+                        "name": "hhgender_des", 
+                        "key": null, 
+                        "desc": "Description"
+                    }
+                ], 
+                "values": [
+                    {
+                        "hhgender_cod": -888, 
+                        "hhgender_des": "NA"
+                    }, 
+                    {
+                        "hhgender_cod": 1, 
+                        "hhgender_des": "Male"
+                    }, 
+                    {
+                        "hhgender_cod": 2, 
+                        "hhgender_des": "Female"
+                    }
+                ], 
+                "name": "REG_lkphhgender", 
+                "desc": "Lookup table (Gender of household head)"
+            }, 
+            {
+                "fields": [
+                    {
+                        "name": "chino_cod", 
+                        "key": "true", 
+                        "desc": "Code"
+                    }, 
+                    {
+                        "name": "chino_des", 
+                        "key": null, 
+                        "desc": "Description"
+                    }
+                ], 
+                "values": [
+                    {
+                        "chino_des": "汉语/漢語 or 中文", 
+                        "chino_cod": 1
+                    }, 
+                    {
+                        "chino_des": "汉语/漢語 or 中文 or 汉语/漢語", 
+                        "chino_cod": 2
+                    }, 
+                    {
+                        "chino_des": "عَرَب", 
+                        "chino_cod": 3
+                    }
+                ], 
+                "name": "REG_lkpchino", 
+                "desc": "Lookup table (汉语/漢語 or 中文)"
+            }
+        ]
+    }, 
+    "importantfields": [
+        {
+            "field": "REG_QST162", 
+            "type": "PackageID", 
+            "desc": "Package ID"
+        }, 
+        {
+            "field": "REG_farmername", 
+            "type": "FarmerName", 
+            "desc": "Name of registered farmer"
+        }, 
+        {
+            "field": "ASS74a747eba83e_char_overallperf_pos", 
+            "type": "OverallCharPos", 
+            "desc": "Over all characteristic positive"
+        }, 
+        {
+            "field": "ASS74a747eba83e_char_overallperf_neg", 
+            "type": "OverallCharNeg", 
+            "desc": "Over all characteristic negative"
+        }, 
+        {
+            "field": "ASS74a747eba83e_perf_overallchar_1", 
+            "type": "OverallPerf1", 
+            "desc": "Over all performance of A against current"
+        }, 
+        {
+            "field": "ASS74a747eba83e_perf_overallchar_2", 
+            "type": "OverallPerf2", 
+            "desc": "Over all performance of B against current"
+        }, 
+        {
+            "field": "ASS74a747eba83e_perf_overallchar_3", 
+            "type": "OverallPerf3", 
+            "desc": "Over all performance of C against current"
+        }
+    ], 
+    "assessments": [
+        {
+            "fields": [
+                {
+                    "name": "surveyid", 
+                    "multiSelectTable": null, 
+                    "odktype": "", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Survey ID (UUID)"
+                }, 
+                {
+                    "name": "originid", 
+                    "multiSelectTable": null, 
+                    "odktype": "", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Origin ID: formhub or aggregate"
+                }, 
+                {
+                    "name": "clm_deviceimei", 
+                    "multiSelectTable": null, 
+                    "odktype": "deviceid", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Device IMEI"
+                }, 
+                {
+                    "name": "clm_start", 
+                    "multiSelectTable": null, 
+                    "odktype": "start", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Start of survey"
+                }, 
+                {
+                    "name": "clm_end", 
+                    "multiSelectTable": null, 
+                    "odktype": "end", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "End of survey"
+                }, 
+                {
+                    "name": "qst163", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one qst163_opts", 
+                    "rfield": "qst163_cod", 
+                    "key": "true", 
+                    "rtable": "ASS6a688e109df5_lkpqst163", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "Seleccionar agricultor"
+                }, 
+                {
+                    "name": "floweringdate", 
+                    "multiSelectTable": null, 
+                    "odktype": "date", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Flowering Date"
+                }, 
+                {
+                    "name": "whocontrolstheincome", 
+                    "multiSelectTable": "ASS6a688e109df5_geninfo_msel_whocontrolstheincome", 
+                    "odktype": "", 
+                    "rfield": "whocontrolstheincome_cod", 
+                    "key": null, 
+                    "rtable": "ASS6a688e109df5_lkpwhocontrolstheincome", 
+                    "isMultiSelect": "true", 
+                    "rlookup": null, 
+                    "desc": "Who controls the income"
+                }, 
+                {
+                    "name": "whocontrolstheincome_oth", 
+                    "multiSelectTable": null, 
+                    "odktype": "text", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Other"
+                }, 
+                {
+                    "name": "char_beantaste_pos", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one char_beantaste_pos_opts", 
+                    "rfield": "char_beantaste_pos_cod", 
+                    "key": null, 
+                    "rtable": "ASS6a688e109df5_lkpchar_beantaste_pos", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "Which varierty tested better عَرَب?"
+                }, 
+                {
+                    "name": "char_beantaste_neg", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one char_beantaste_neg_opts", 
+                    "rfield": "char_beantaste_pos_cod", 
+                    "key": null, 
+                    "rtable": "ASS6a688e109df5_lkpchar_beantaste_pos", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "Which varierty tested worst عَرَب?"
+                }, 
+                {
+                    "name": "perf_comptolocal_1", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one perf_comptolocal_1_opts", 
+                    "rfield": "perf_comptolocal_1_cod", 
+                    "key": null, 
+                    "rtable": "ASS6a688e109df5_lkpperf_comptolocal_1", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "In terms of taste, how does A compares with the variety you usually use?"
+                }, 
+                {
+                    "name": "perf_comptolocal_2", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one perf_comptolocal_2_opts", 
+                    "rfield": "perf_comptolocal_1_cod", 
+                    "key": null, 
+                    "rtable": "ASS6a688e109df5_lkpperf_comptolocal_1", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "In terms of taste, how does B compares with the variety you usually use?"
+                }, 
+                {
+                    "name": "perf_comptolocal_3", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one perf_comptolocal_3_opts", 
+                    "rfield": "perf_comptolocal_1_cod", 
+                    "key": null, 
+                    "rtable": "ASS6a688e109df5_lkpperf_comptolocal_1", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "In terms of taste, how does C compares with the variety you usually use?"
+                }, 
+                {
+                    "name": "farmgoelocation", 
+                    "multiSelectTable": null, 
+                    "odktype": "geopoint", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Farm Geolocation"
+                }, 
+                {
+                    "name": "rowuuid", 
+                    "multiSelectTable": null, 
+                    "odktype": "", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Unique Row Identifier (UUID)"
+                }
+            ], 
+            "code": "6a688e109df5", 
+            "lkptables": [
+                {
+                    "fields": [
+                        {
+                            "name": "char_beantaste_pos_cod", 
+                            "key": "true", 
+                            "desc": "Code"
+                        }, 
+                        {
+                            "name": "char_beantaste_pos_des", 
+                            "key": null, 
+                            "desc": "Description"
+                        }
+                    ], 
+                    "values": [
+                        {
+                            "char_beantaste_pos_cod": 1, 
+                            "char_beantaste_pos_des": "Option A"
+                        }, 
+                        {
+                            "char_beantaste_pos_cod": 2, 
+                            "char_beantaste_pos_des": "Option B"
+                        }, 
+                        {
+                            "char_beantaste_pos_cod": 3, 
+                            "char_beantaste_pos_des": "Option C"
+                        }
+                    ], 
+                    "name": "ASS6a688e109df5_lkpchar_beantaste_pos", 
+                    "desc": "Lookup table (Which varierty tested better عَرَب?)"
+                }, 
+                {
+                    "fields": [
+                        {
+                            "name": "whocontrolstheincome_cod", 
+                            "key": "true", 
+                            "desc": "Code"
+                        }, 
+                        {
+                            "name": "whocontrolstheincome_des", 
+                            "key": null, 
+                            "desc": "Description"
+                        }
+                    ], 
+                    "values": [
+                        {
+                            "whocontrolstheincome_cod": -888, 
+                            "whocontrolstheincome_des": "Not applicable"
+                        }, 
+                        {
+                            "whocontrolstheincome_cod": -777, 
+                            "whocontrolstheincome_des": "Other"
+                        }, 
+                        {
+                            "whocontrolstheincome_cod": 1, 
+                            "whocontrolstheincome_des": "Male"
+                        }, 
+                        {
+                            "whocontrolstheincome_cod": 2, 
+                            "whocontrolstheincome_des": "Female"
+                        }, 
+                        {
+                            "whocontrolstheincome_cod": 3, 
+                            "whocontrolstheincome_des": "Joint"
+                        }, 
+                        {
+                            "whocontrolstheincome_cod": 4, 
+                            "whocontrolstheincome_des": "Youth"
+                        }
+                    ], 
+                    "name": "ASS6a688e109df5_lkpwhocontrolstheincome", 
+                    "desc": "Lookup table (Who controls the income)"
+                }, 
+                {
+                    "fields": [
+                        {
+                            "name": "perf_comptolocal_1_cod", 
+                            "key": "true", 
+                            "desc": "Code"
+                        }, 
+                        {
+                            "name": "perf_comptolocal_1_des", 
+                            "key": null, 
+                            "desc": "Description"
+                        }
+                    ], 
+                    "values": [
+                        {
+                            "perf_comptolocal_1_cod": 1, 
+                            "perf_comptolocal_1_des": "Better"
+                        }, 
+                        {
+                            "perf_comptolocal_1_cod": 2, 
+                            "perf_comptolocal_1_des": "Worst"
+                        }
+                    ], 
+                    "name": "ASS6a688e109df5_lkpperf_comptolocal_1", 
+                    "desc": "Lookup table (In terms of taste, how does A compares with the variety you usually use?)"
+                }, 
+                {
+                    "fields": [
+                        {
+                            "name": "qst163_cod", 
+                            "key": "true", 
+                            "desc": "Code"
+                        }, 
+                        {
+                            "name": "qst163_des", 
+                            "key": null, 
+                            "desc": "Description"
+                        }
+                    ], 
+                    "values": [
+                        {
+                            "qst163_cod": 1, 
+                            "qst163_des": "Carlos Quiros"
+                        }, 
+                        {
+                            "qst163_cod": 93, 
+                            "qst163_des": "Flor Campos"
+                        }, 
+                        {
+                            "qst163_cod": 101, 
+                            "qst163_des": "Eduardo Camacho"
+                        }, 
+                        {
+                            "qst163_cod": 173, 
+                            "qst163_des": "Florinda Meza"
+                        }, 
+                        {
+                            "qst163_cod": 200, 
+                            "qst163_des": "Katie Tavenner"
+                        }
+                    ], 
+                    "name": "ASS6a688e109df5_lkpqst163", 
+                    "desc": "Lookup table (Seleccionar agricultor)"
+                }
+            ], 
+            "desc": "Assessment at 45 days"
+        }, 
+        {
+            "fields": [
+                {
+                    "name": "surveyid", 
+                    "multiSelectTable": null, 
+                    "odktype": "", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Survey ID (UUID)"
+                }, 
+                {
+                    "name": "originid", 
+                    "multiSelectTable": null, 
+                    "odktype": "", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Origin ID: formhub or aggregate"
+                }, 
+                {
+                    "name": "clm_deviceimei", 
+                    "multiSelectTable": null, 
+                    "odktype": "deviceid", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Device IMEI"
+                }, 
+                {
+                    "name": "clm_start", 
+                    "multiSelectTable": null, 
+                    "odktype": "start", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Start of survey"
+                }, 
+                {
+                    "name": "clm_end", 
+                    "multiSelectTable": null, 
+                    "odktype": "end", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "End of survey"
+                }, 
+                {
+                    "name": "qst163", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one qst163_opts", 
+                    "rfield": "qst163_cod", 
+                    "key": "true", 
+                    "rtable": "ASS74a747eba83e_lkpqst163", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "Seleccionar agricultor"
+                }, 
+                {
+                    "name": "weddingtyime", 
+                    "multiSelectTable": null, 
+                    "odktype": "time", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Time when the weeding happens"
+                }, 
+                {
+                    "name": "whocontrolstheincome", 
+                    "multiSelectTable": "ASS74a747eba83e_geninfo_msel_whocontrolstheincome", 
+                    "odktype": "", 
+                    "rfield": "whocontrolstheincome_cod", 
+                    "key": null, 
+                    "rtable": "ASS74a747eba83e_lkpwhocontrolstheincome", 
+                    "isMultiSelect": "true", 
+                    "rlookup": null, 
+                    "desc": "Who controls the income"
+                }, 
+                {
+                    "name": "whocontrolstheincome_oth", 
+                    "multiSelectTable": null, 
+                    "odktype": "text", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Other"
+                }, 
+                {
+                    "name": "perf_compareyield_1", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one perf_compareyield_1_opts", 
+                    "rfield": "perf_compareyield_1_cod", 
+                    "key": null, 
+                    "rtable": "ASS74a747eba83e_lkpperf_compareyield_1", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "In terms of yield, how does A compares with the variety you usually use عَرَب?"
+                }, 
+                {
+                    "name": "perf_compareyield_2", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one perf_compareyield_2_opts", 
+                    "rfield": "perf_compareyield_1_cod", 
+                    "key": null, 
+                    "rtable": "ASS74a747eba83e_lkpperf_compareyield_1", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "In terms of yield, how does B compares with the variety you usually use عَرَب?"
+                }, 
+                {
+                    "name": "perf_compareyield_3", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one perf_compareyield_3_opts", 
+                    "rfield": "perf_compareyield_1_cod", 
+                    "key": null, 
+                    "rtable": "ASS74a747eba83e_lkpperf_compareyield_1", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "In terms of yield, how does C compares with the variety you usually use عَرَب?"
+                }, 
+                {
+                    "name": "char_overallperf_pos", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one char_overallperf_pos_opts", 
+                    "rfield": "char_overallperf_pos_cod", 
+                    "key": null, 
+                    "rtable": "ASS74a747eba83e_lkpchar_overallperf_pos", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "Overall, which option performed better?"
+                }, 
+                {
+                    "name": "char_overallperf_neg", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one char_overallperf_neg_opts", 
+                    "rfield": "char_overallperf_pos_cod", 
+                    "key": null, 
+                    "rtable": "ASS74a747eba83e_lkpchar_overallperf_pos", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "Overall, which option performed worst?"
+                }, 
+                {
+                    "name": "perf_overallchar_1", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one perf_overallchar_1_opts", 
+                    "rfield": "perf_compareyield_1_cod", 
+                    "key": null, 
+                    "rtable": "ASS74a747eba83e_lkpperf_compareyield_1", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "Overall, whichone is best A or what you usually use?"
+                }, 
+                {
+                    "name": "perf_overallchar_2", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one perf_overallchar_2_opts", 
+                    "rfield": "perf_compareyield_1_cod", 
+                    "key": null, 
+                    "rtable": "ASS74a747eba83e_lkpperf_compareyield_1", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "Overall, whichone is best B or what you usually use?"
+                }, 
+                {
+                    "name": "perf_overallchar_3", 
+                    "multiSelectTable": null, 
+                    "odktype": "select_one perf_overallchar_3_opts", 
+                    "rfield": "perf_compareyield_1_cod", 
+                    "key": null, 
+                    "rtable": "ASS74a747eba83e_lkpperf_compareyield_1", 
+                    "isMultiSelect": null, 
+                    "rlookup": "true", 
+                    "desc": "Overall, whichone is best C or what you usually use?"
+                }, 
+                {
+                    "name": "rowuuid", 
+                    "multiSelectTable": null, 
+                    "odktype": "", 
+                    "rfield": null, 
+                    "key": null, 
+                    "rtable": null, 
+                    "isMultiSelect": null, 
+                    "rlookup": null, 
+                    "desc": "Unique Row Identifier (UUID)"
+                }
+            ], 
+            "code": "74a747eba83e", 
+            "lkptables": [
+                {
+                    "fields": [
+                        {
+                            "name": "perf_compareyield_1_cod", 
+                            "key": "true", 
+                            "desc": "Code"
+                        }, 
+                        {
+                            "name": "perf_compareyield_1_des", 
+                            "key": null, 
+                            "desc": "Description"
+                        }
+                    ], 
+                    "values": [
+                        {
+                            "perf_compareyield_1_cod": 1, 
+                            "perf_compareyield_1_des": "Better"
+                        }, 
+                        {
+                            "perf_compareyield_1_cod": 2, 
+                            "perf_compareyield_1_des": "Worst"
+                        }
+                    ], 
+                    "name": "ASS74a747eba83e_lkpperf_compareyield_1", 
+                    "desc": "Lookup table (In terms of yield, how does A compares with the variety you usually use عَرَب?)"
+                }, 
+                {
+                    "fields": [
+                        {
+                            "name": "whocontrolstheincome_cod", 
+                            "key": "true", 
+                            "desc": "Code"
+                        }, 
+                        {
+                            "name": "whocontrolstheincome_des", 
+                            "key": null, 
+                            "desc": "Description"
+                        }
+                    ], 
+                    "values": [
+                        {
+                            "whocontrolstheincome_cod": -888, 
+                            "whocontrolstheincome_des": "Not applicable"
+                        }, 
+                        {
+                            "whocontrolstheincome_cod": -777, 
+                            "whocontrolstheincome_des": "Other"
+                        }, 
+                        {
+                            "whocontrolstheincome_cod": 1, 
+                            "whocontrolstheincome_des": "Male"
+                        }, 
+                        {
+                            "whocontrolstheincome_cod": 2, 
+                            "whocontrolstheincome_des": "Female"
+                        }, 
+                        {
+                            "whocontrolstheincome_cod": 3, 
+                            "whocontrolstheincome_des": "Joint"
+                        }, 
+                        {
+                            "whocontrolstheincome_cod": 4, 
+                            "whocontrolstheincome_des": "Youth"
+                        }
+                    ], 
+                    "name": "ASS74a747eba83e_lkpwhocontrolstheincome", 
+                    "desc": "Lookup table (Who controls the income)"
+                }, 
+                {
+                    "fields": [
+                        {
+                            "name": "char_overallperf_pos_cod", 
+                            "key": "true", 
+                            "desc": "Code"
+                        }, 
+                        {
+                            "name": "char_overallperf_pos_des", 
+                            "key": null, 
+                            "desc": "Description"
+                        }
+                    ], 
+                    "values": [
+                        {
+                            "char_overallperf_pos_des": "Option A", 
+                            "char_overallperf_pos_cod": 1
+                        }, 
+                        {
+                            "char_overallperf_pos_des": "Option B", 
+                            "char_overallperf_pos_cod": 2
+                        }, 
+                        {
+                            "char_overallperf_pos_des": "Option C", 
+                            "char_overallperf_pos_cod": 3
+                        }
+                    ], 
+                    "name": "ASS74a747eba83e_lkpchar_overallperf_pos", 
+                    "desc": "Lookup table (Overall, which option performed better?)"
+                }, 
+                {
+                    "fields": [
+                        {
+                            "name": "qst163_cod", 
+                            "key": "true", 
+                            "desc": "Code"
+                        }, 
+                        {
+                            "name": "qst163_des", 
+                            "key": null, 
+                            "desc": "Description"
+                        }
+                    ], 
+                    "values": [
+                        {
+                            "qst163_cod": 1, 
+                            "qst163_des": "Carlos Quiros"
+                        }, 
+                        {
+                            "qst163_cod": 93, 
+                            "qst163_des": "Flor Campos"
+                        }, 
+                        {
+                            "qst163_cod": 101, 
+                            "qst163_des": "Eduardo Camacho"
+                        }, 
+                        {
+                            "qst163_cod": 173, 
+                            "qst163_des": "Florinda Meza"
+                        }, 
+                        {
+                            "qst163_cod": 200, 
+                            "qst163_des": "Katie Tavenner"
+                        }
+                    ], 
+                    "name": "ASS74a747eba83e_lkpqst163", 
+                    "desc": "Lookup table (Seleccionar agricultor)"
+                }
+            ], 
+            "desc": "Last assessment"
+        }
+    ], 
+    "packages": [
+        {
+            "comps": [
+                {
+                    "comb_order": 1, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz tres"
+                        }
+                    ]
+                }, 
+                {
+                    "comb_order": 2, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz dos"
+                        }
+                    ]
+                }, 
+                {
+                    "comb_order": 3, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz uno"
+                        }
+                    ]
+                }
+            ], 
+            "package_id": 1, 
+            "farmername": "Carlos Quiros"
+        }, 
+        {
+            "comps": [
+                {
+                    "comb_order": 1, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz uno"
+                        }
+                    ]
+                }, 
+                {
+                    "comb_order": 2, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz cuatro"
+                        }
+                    ]
+                }, 
+                {
+                    "comb_order": 3, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz dos"
+                        }
+                    ]
+                }
+            ], 
+            "package_id": 93, 
+            "farmername": "Flor Campos"
+        }, 
+        {
+            "comps": [
+                {
+                    "comb_order": 1, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz dos"
+                        }
+                    ]
+                }, 
+                {
+                    "comb_order": 2, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz tres"
+                        }
+                    ]
+                }, 
+                {
+                    "comb_order": 3, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz uno"
+                        }
+                    ]
+                }
+            ], 
+            "package_id": 101, 
+            "farmername": "Eduardo Camacho"
+        }, 
+        {
+            "comps": [
+                {
+                    "comb_order": 1, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz dos"
+                        }
+                    ]
+                }, 
+                {
+                    "comb_order": 2, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz cuatro"
+                        }
+                    ]
+                }, 
+                {
+                    "comb_order": 3, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz uno"
+                        }
+                    ]
+                }
+            ], 
+            "package_id": 173, 
+            "farmername": "Florinda Meza"
+        }, 
+        {
+            "comps": [
+                {
+                    "comb_order": 1, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz cuatro"
+                        }
+                    ]
+                }, 
+                {
+                    "comb_order": 2, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz cinco"
+                        }
+                    ]
+                }, 
+                {
+                    "comb_order": 3, 
+                    "technologies": [
+                        {
+                            "tech_name": "Maiz", 
+                            "alias_name": "Maiz dos"
+                        }
+                    ]
+                }
+            ], 
+            "package_id": 200, 
+            "farmername": "Katie Tavenner"
+        }
+    ], 
+    "data": [
+        {
+            "ASS6a688e109df5_whocontrolstheincome": "1", 
+            "ASS6a688e109df5_originid": "FORMHUB-JSON", 
+            "ASS6a688e109df5_rowuuid": "65c4c673-cbfc-11e7-82f5-6db02ac45766", 
+            "ASS6a688e109df5_char_beantaste_pos": 1, 
+            "ASS6a688e109df5_surveyid": "fa472155-f606-4089-a8f5-8b8e5f5e110a", 
+            "ASS74a747eba83e_perf_overallchar_1": 1, 
+            "REG_clm_end": "2017-11-17 18:17:12", 
+            "ASS6a688e109df5_perf_comptolocal_2": 2, 
+            "ASS6a688e109df5_perf_comptolocal_1": 1, 
+            "ASS74a747eba83e_perf_compareyield_3": 1, 
+            "ASS6a688e109df5_char_beantaste_neg": 2, 
+            "REG_clm_start": "2017-11-17 18:16:13", 
+            "ASS74a747eba83e_char_overallperf_pos": 2, 
+            "ASS6a688e109df5_whocontrolstheincome_oth": null, 
+            "ASS6a688e109df5_farmgoelocation": "-1.2480336 36.7571602 0.0 52.4", 
+            "ASS74a747eba83e_qst163": 1, 
+            "REG_rowuuid": "20876393-cbf6-11e7-82f5-6db02ac45766", 
+            "ASS6a688e109df5_clm_deviceimei": "861957033866129", 
+            "ASS74a747eba83e_whocontrolstheincome": "1 2", 
+            "ASS74a747eba83e_clm_deviceimei": "861957033866129", 
+            "ASS6a688e109df5_clm_end": "2017-11-17 19:02:40", 
+            "ASS74a747eba83e_rowuuid": "d7c92676-cbfc-11e7-82f5-6db02ac45766", 
+            "REG_surveyid": "5d1717f8-0f92-4866-a85d-a6459b90d77c", 
+            "ASS74a747eba83e_whocontrolstheincome_oth": null, 
+            "REG_hhgender": 1, 
+            "ASS74a747eba83e_perf_compareyield_2": 2, 
+            "ASS6a688e109df5_qst163": 1, 
+            "ASS74a747eba83e_perf_compareyield_1": 1, 
+            "ASS74a747eba83e_perf_overallchar_2": 1, 
+            "ASS74a747eba83e_clm_end": "2017-11-17 19:05:41", 
+            "ASS6a688e109df5_perf_comptolocal_3": 1, 
+            "ASS6a688e109df5_clm_start": "2017-11-17 19:02:05", 
+            "ASS74a747eba83e_weddingtyime": "19:05:00", 
+            "REG_chino": 2, 
+            "ASS74a747eba83e_surveyid": "e797bac8-fbb0-4f9f-9b48-c0f583f263b1", 
+            "REG_originid": "FORMHUB-JSON", 
+            "ASS6a688e109df5_floweringdate": "2017-11-17", 
+            "ASS74a747eba83e_originid": "FORMHUB-JSON", 
+            "REG_clm_deviceimei": "861957033866129", 
+            "REG_qst162": "1", 
+            "REG_farmername": "Carlos Quiros", 
+            "ASS74a747eba83e_clm_start": "2017-11-17 19:05:11", 
+            "ASS74a747eba83e_char_overallperf_neg": 2, 
+            "ASS74a747eba83e_perf_overallchar_3": 2
+        }, 
+        {
+            "ASS6a688e109df5_whocontrolstheincome": "1", 
+            "ASS6a688e109df5_originid": "FORMHUB-JSON", 
+            "ASS6a688e109df5_rowuuid": "65d98d1b-cbfc-11e7-82f5-6db02ac45766", 
+            "ASS6a688e109df5_char_beantaste_pos": 1, 
+            "ASS6a688e109df5_surveyid": "9a74b67e-598b-431c-b11b-b3cefbc6a909", 
+            "ASS74a747eba83e_perf_overallchar_1": 1, 
+            "REG_clm_end": "2017-11-17 18:18:05", 
+            "ASS6a688e109df5_perf_comptolocal_2": 2, 
+            "ASS6a688e109df5_perf_comptolocal_1": 1, 
+            "ASS74a747eba83e_perf_compareyield_3": 2, 
+            "ASS6a688e109df5_char_beantaste_neg": 2, 
+            "REG_clm_start": "2017-11-17 18:17:54", 
+            "ASS74a747eba83e_char_overallperf_pos": 2, 
+            "ASS6a688e109df5_whocontrolstheincome_oth": null, 
+            "ASS6a688e109df5_farmgoelocation": "-1.2480336 36.7571602 0.0 56.1", 
+            "ASS74a747eba83e_qst163": 101, 
+            "REG_rowuuid": "20e0669f-cbf6-11e7-82f5-6db02ac45766", 
+            "ASS6a688e109df5_clm_deviceimei": "861957033866129", 
+            "ASS74a747eba83e_whocontrolstheincome": "2 4", 
+            "ASS74a747eba83e_clm_deviceimei": "861957033866129", 
+            "ASS6a688e109df5_clm_end": "2017-11-17 19:03:10", 
+            "ASS74a747eba83e_rowuuid": "d87bbdb2-cbfc-11e7-82f5-6db02ac45766", 
+            "REG_surveyid": "51d79a78-af1c-4450-8b62-45ce00351f4b", 
+            "ASS74a747eba83e_whocontrolstheincome_oth": null, 
+            "REG_hhgender": 1, 
+            "ASS74a747eba83e_perf_compareyield_2": 1, 
+            "ASS6a688e109df5_qst163": 101, 
+            "ASS74a747eba83e_perf_compareyield_1": 1, 
+            "ASS74a747eba83e_perf_overallchar_2": 1, 
+            "ASS74a747eba83e_clm_end": "2017-11-17 19:06:22", 
+            "ASS6a688e109df5_perf_comptolocal_3": 1, 
+            "ASS6a688e109df5_clm_start": "2017-11-17 19:02:45", 
+            "ASS74a747eba83e_weddingtyime": "19:05:00", 
+            "REG_chino": 2, 
+            "ASS74a747eba83e_surveyid": "372659d3-1938-4948-93c8-d3e915c9157c", 
+            "REG_originid": "FORMHUB-JSON", 
+            "ASS6a688e109df5_floweringdate": "2017-11-17", 
+            "ASS74a747eba83e_originid": "FORMHUB-JSON", 
+            "REG_clm_deviceimei": "861957033866129", 
+            "REG_qst162": "101", 
+            "REG_farmername": "Eduardo Camacho", 
+            "ASS74a747eba83e_clm_start": "2017-11-17 19:05:45", 
+            "ASS74a747eba83e_char_overallperf_neg": 1, 
+            "ASS74a747eba83e_perf_overallchar_3": 1
+        }, 
+        {
+            "ASS6a688e109df5_whocontrolstheincome": "2", 
+            "ASS6a688e109df5_originid": "FORMHUB-JSON", 
+            "ASS6a688e109df5_rowuuid": "6600bf88-cbfc-11e7-82f5-6db02ac45766", 
+            "ASS6a688e109df5_char_beantaste_pos": 2, 
+            "ASS6a688e109df5_surveyid": "36d8815c-c658-4a71-8e74-46dc945d3064", 
+            "ASS74a747eba83e_perf_overallchar_1": 2, 
+            "REG_clm_end": "2017-11-17 18:18:34", 
+            "ASS6a688e109df5_perf_comptolocal_2": 1, 
+            "ASS6a688e109df5_perf_comptolocal_1": 1, 
+            "ASS74a747eba83e_perf_compareyield_3": 2, 
+            "ASS6a688e109df5_char_beantaste_neg": 3, 
+            "REG_clm_start": "2017-11-17 18:18:09", 
+            "ASS74a747eba83e_char_overallperf_pos": 2, 
+            "ASS6a688e109df5_whocontrolstheincome_oth": null, 
+            "ASS6a688e109df5_farmgoelocation": "-1.2480336 36.7571602 0.0 77.6", 
+            "ASS74a747eba83e_qst163": 173, 
+            "REG_rowuuid": "20f87e4b-cbf6-11e7-82f5-6db02ac45766", 
+            "ASS6a688e109df5_clm_deviceimei": "861957033866129", 
+            "ASS74a747eba83e_whocontrolstheincome": "1 2 4", 
+            "ASS74a747eba83e_clm_deviceimei": "861957033866129", 
+            "ASS6a688e109df5_clm_end": "2017-11-17 19:03:32", 
+            "ASS74a747eba83e_rowuuid": "d89ce45f-cbfc-11e7-82f5-6db02ac45766", 
+            "REG_surveyid": "68f0a10f-8580-4fc2-8c14-d0e5650d561d", 
+            "ASS74a747eba83e_whocontrolstheincome_oth": null, 
+            "REG_hhgender": 2, 
+            "ASS74a747eba83e_perf_compareyield_2": 2, 
+            "ASS6a688e109df5_qst163": 173, 
+            "ASS74a747eba83e_perf_compareyield_1": 1, 
+            "ASS74a747eba83e_perf_overallchar_2": 1, 
+            "ASS74a747eba83e_clm_end": "2017-11-17 19:06:54", 
+            "ASS6a688e109df5_perf_comptolocal_3": 2, 
+            "ASS6a688e109df5_clm_start": "2017-11-17 19:03:13", 
+            "ASS74a747eba83e_weddingtyime": "19:06:00", 
+            "REG_chino": 2, 
+            "ASS74a747eba83e_surveyid": "4889ee1c-6a78-498a-bc7c-73c52ead0c6d", 
+            "REG_originid": "FORMHUB-JSON", 
+            "ASS6a688e109df5_floweringdate": "2017-11-17", 
+            "ASS74a747eba83e_originid": "FORMHUB-JSON", 
+            "REG_clm_deviceimei": "861957033866129", 
+            "REG_qst162": "173", 
+            "REG_farmername": "Florinda Meza", 
+            "ASS74a747eba83e_clm_start": "2017-11-17 19:06:24", 
+            "ASS74a747eba83e_char_overallperf_neg": 2, 
+            "ASS74a747eba83e_perf_overallchar_3": 1
+        }, 
+        {
+            "ASS6a688e109df5_whocontrolstheincome": null, 
+            "ASS6a688e109df5_originid": null, 
+            "ASS6a688e109df5_rowuuid": null, 
+            "ASS6a688e109df5_char_beantaste_pos": null, 
+            "ASS6a688e109df5_surveyid": null, 
+            "ASS74a747eba83e_perf_overallchar_1": null, 
+            "REG_clm_end": "2017-11-17 18:18:59", 
+            "ASS6a688e109df5_perf_comptolocal_2": null, 
+            "ASS6a688e109df5_perf_comptolocal_1": null, 
+            "ASS74a747eba83e_perf_compareyield_3": null, 
+            "ASS6a688e109df5_char_beantaste_neg": null, 
+            "REG_clm_start": "2017-11-17 18:18:44", 
+            "ASS74a747eba83e_char_overallperf_pos": null, 
+            "ASS6a688e109df5_whocontrolstheincome_oth": null, 
+            "ASS6a688e109df5_farmgoelocation": null, 
+            "ASS74a747eba83e_qst163": null, 
+            "REG_rowuuid": "2111828f-cbf6-11e7-82f5-6db02ac45766", 
+            "ASS6a688e109df5_clm_deviceimei": null, 
+            "ASS74a747eba83e_whocontrolstheincome": null, 
+            "ASS74a747eba83e_clm_deviceimei": null, 
+            "ASS6a688e109df5_clm_end": null, 
+            "ASS74a747eba83e_rowuuid": null, 
+            "REG_surveyid": "02bc50e4-a2a3-4c1d-b6af-4a58641cd3f4", 
+            "ASS74a747eba83e_whocontrolstheincome_oth": null, 
+            "REG_hhgender": 2, 
+            "ASS74a747eba83e_perf_compareyield_2": null, 
+            "ASS6a688e109df5_qst163": null, 
+            "ASS74a747eba83e_perf_compareyield_1": null, 
+            "ASS74a747eba83e_perf_overallchar_2": null, 
+            "ASS74a747eba83e_clm_end": null, 
+            "ASS6a688e109df5_perf_comptolocal_3": null, 
+            "ASS6a688e109df5_clm_start": null, 
+            "ASS74a747eba83e_weddingtyime": null, 
+            "REG_chino": 2, 
+            "ASS74a747eba83e_surveyid": null, 
+            "REG_originid": "FORMHUB-JSON", 
+            "ASS6a688e109df5_floweringdate": null, 
+            "ASS74a747eba83e_originid": null, 
+            "REG_clm_deviceimei": "861957033866129", 
+            "REG_qst162": "200", 
+            "REG_farmername": "Katie Tavenner", 
+            "ASS74a747eba83e_clm_start": null, 
+            "ASS74a747eba83e_char_overallperf_neg": null, 
+            "ASS74a747eba83e_perf_overallchar_3": null
+        }, 
+        {
+            "ASS6a688e109df5_whocontrolstheincome": "1 2 3", 
+            "ASS6a688e109df5_originid": "FORMHUB-JSON", 
+            "ASS6a688e109df5_rowuuid": "66150954-cbfc-11e7-82f5-6db02ac45766", 
+            "ASS6a688e109df5_char_beantaste_pos": 1, 
+            "ASS6a688e109df5_surveyid": "27518c05-2286-4dff-bd0c-3420cae92f45", 
+            "ASS74a747eba83e_perf_overallchar_1": null, 
+            "REG_clm_end": "2017-11-17 18:17:42", 
+            "ASS6a688e109df5_perf_comptolocal_2": 1, 
+            "ASS6a688e109df5_perf_comptolocal_1": 1, 
+            "ASS74a747eba83e_perf_compareyield_3": null, 
+            "ASS6a688e109df5_char_beantaste_neg": 1, 
+            "REG_clm_start": "2017-11-17 18:17:28", 
+            "ASS74a747eba83e_char_overallperf_pos": null, 
+            "ASS6a688e109df5_whocontrolstheincome_oth": null, 
+            "ASS6a688e109df5_farmgoelocation": "-1.2480336 36.7571602 0.0 64.1", 
+            "ASS74a747eba83e_qst163": null, 
+            "REG_rowuuid": "20c69285-cbf6-11e7-82f5-6db02ac45766", 
+            "ASS6a688e109df5_clm_deviceimei": "861957033866129", 
+            "ASS74a747eba83e_whocontrolstheincome": null, 
+            "ASS74a747eba83e_clm_deviceimei": null, 
+            "ASS6a688e109df5_clm_end": "2017-11-17 19:03:57", 
+            "ASS74a747eba83e_rowuuid": null, 
+            "REG_surveyid": "ac56231e-781d-4adf-9642-02c167e4e152", 
+            "ASS74a747eba83e_whocontrolstheincome_oth": null, 
+            "REG_hhgender": 2, 
+            "ASS74a747eba83e_perf_compareyield_2": null, 
+            "ASS6a688e109df5_qst163": 93, 
+            "ASS74a747eba83e_perf_compareyield_1": null, 
+            "ASS74a747eba83e_perf_overallchar_2": null, 
+            "ASS74a747eba83e_clm_end": null, 
+            "ASS6a688e109df5_perf_comptolocal_3": 1, 
+            "ASS6a688e109df5_clm_start": "2017-11-17 19:03:36", 
+            "ASS74a747eba83e_weddingtyime": null, 
+            "REG_chino": 2, 
+            "ASS74a747eba83e_surveyid": null, 
+            "REG_originid": "FORMHUB-JSON", 
+            "ASS6a688e109df5_floweringdate": "2017-11-17", 
+            "ASS74a747eba83e_originid": null, 
+            "REG_clm_deviceimei": "861957033866129", 
+            "REG_qst162": "93", 
+            "REG_farmername": "Flor Campos", 
+            "ASS74a747eba83e_clm_start": null, 
+            "ASS74a747eba83e_char_overallperf_neg": null, 
+            "ASS74a747eba83e_perf_overallchar_3": null
+        }
+    ]
+}

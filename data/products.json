@@ -1,0 +1,14 @@
+[
+    {
+        "path": "/home/cquiros/outs/report.pdf", 
+        "code": "OUT001", 
+        "mime": "application/pdf", 
+        "desc": "Report by farmer"
+    }, 
+    {
+        "path": "/home/cquiros/outs/chart1.png", 
+        "code": "OUT002", 
+        "mime": "image/png", 
+        "desc": "A bar chart"
+    }
+]
